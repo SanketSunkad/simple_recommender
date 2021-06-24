@@ -33,7 +33,7 @@ def get_related_titles(userList, my_type):
 def get_movie_data(title):
     parameters = {}
     url = "https://www.omdbapi.com/"
-    parameters["apikey"] = "bfdd5915"
+    parameters["apikey"] = "yourkey"
     parameters["t"] = title
     parameters["r"] = "json"
     movieInfo = requests.get(url, parameters)
